@@ -33,3 +33,6 @@ v
 Fsrc/main/java/patrones/creacionales/abstractFactory/PaymentMethod.java,a/5/a530d9a0d96834af0fa908bdb22fc47167e95b58
 }
 Msrc/main/java/patrones/creacionales/abstractFactory/PaymentMethodFactory.java,b/c/bcc9f6f06e5ae557dd0ac12c12a9074a379346a9
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
