@@ -32,3 +32,9 @@ n
 >src/main/java/patrones/creacionales/abstractFactory/Debit.java,c/8/c8bc4476d707fe7c6aec4b4c2bdf718396e2aadd
 o
 ?src/main/java/patrones/creacionales/abstractFactory/Credit.java,d/0/d091464855c570bc10a40a1765e90ede639ce076
+e
+5src/main/java/patrones/creacionales/builder/Card.java,0/5/052ff7445aad783aaedf490fbb571edcfe22f25d
+]
+-src/main/java/patrones/creacionales/Main.java,5/0/50b6eed3feed24e5ac1b51c838e722e98b080137
+x
+Hsrc/main/java/patrones/creacionales/abstractFactory/FactoryProvider.java,7/2/72b5de39ce0c05afbdb0bb7e1233a0f06183409c
