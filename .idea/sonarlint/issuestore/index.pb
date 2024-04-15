@@ -7,8 +7,6 @@ r
 Bsrc/main/java/patrones/creacionales/factoryMethod/CardPayment.java,f/b/fb831625557f2de7b48af22c26833f2d2a4b9389
 r
 Bsrc/main/java/patrones/creacionales/factoryMethod/MercadoPago.java,d/6/d6ebbc256e28248921ad167ab4761cdc609ed21d
-k
-;src/main/java/patrones/creacionales/factoryMethod/Main.java,d/2/d2c78995c2500f2b54f1288b44127fd57bb920e7
 p
 @src/main/java/patrones/creacionales/abstractFactory/Factory.java,1/3/137ade8619fb1bc7b36f7b5cb39e4d8f78374946
 t
@@ -38,3 +36,11 @@ e
 -src/main/java/patrones/creacionales/Main.java,5/0/50b6eed3feed24e5ac1b51c838e722e98b080137
 x
 Hsrc/main/java/patrones/creacionales/abstractFactory/FactoryProvider.java,7/2/72b5de39ce0c05afbdb0bb7e1233a0f06183409c
+p
+@src/main/java/patrones/creacionales/prototype/PrototypeCard.java,2/6/2666b21334b035e2e0f409a3872eb3744ab9f1cc
+g
+7src/main/java/patrones/creacionales/prototype/Visa.java,5/8/58c1d6338fa3a6ebad8ec780575a430039215c97
+m
+=src/main/java/patrones/creacionales/prototype/Mastercard.java,3/1/31761d812e3dc6cd80146a92ecf5ff11c7b5e4b4
+s
+Csrc/main/java/patrones/creacionales/prototype/PrototypeFactory.java,5/3/53bfe61dd900bd6e26333e42685a2b4d6da4aa93
