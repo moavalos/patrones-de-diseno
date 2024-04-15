@@ -46,3 +46,15 @@ s
 Csrc/main/java/patrones/creacionales/prototype/PrototypeFactory.java,5/3/53bfe61dd900bd6e26333e42685a2b4d6da4aa93
 p
 @src/main/java/patrones/creacionales/singleton/CardSingleton.java,f/6/f6c13539ddc1dbfcf24b7fc92f62991949fcdf20
+Å
+Qsrc/main/java/patrones/comportamiento/chainOfResponsibility/ApproveLoanChain.java,9/8/98142f423e57f2eb4ac8d029b0d1a9f45b8a3ef0
+v
+Fsrc/main/java/patrones/comportamiento/chainOfResponsibility/Black.java,1/a/1ac03b3a7bc7bb2f9eea92c103625b8cc04d5883
+u
+Esrc/main/java/patrones/comportamiento/chainOfResponsibility/Gold.java,e/b/eb5a47c3bbe9d787d68708a8c3a2e72efc3518b5
+z
+Jsrc/main/java/patrones/comportamiento/chainOfResponsibility/Platinium.java,7/0/70ae27cec3b380b9880c6e6b1ac6bc07704f6a50
+x
+Hsrc/main/java/patrones/comportamiento/chainOfResponsibility/Tarjeta.java,e/2/e2bb540a1004761f31f8b08bad9bef8309254c83
+_
+/src/main/java/patrones/comportamiento/Main.java,5/0/5012be464e73974345ba7638378458cdb7f2936e
