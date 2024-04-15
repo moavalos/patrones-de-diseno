@@ -44,3 +44,5 @@ m
 =src/main/java/patrones/creacionales/prototype/Mastercard.java,3/1/31761d812e3dc6cd80146a92ecf5ff11c7b5e4b4
 s
 Csrc/main/java/patrones/creacionales/prototype/PrototypeFactory.java,5/3/53bfe61dd900bd6e26333e42685a2b4d6da4aa93
+p
+@src/main/java/patrones/creacionales/singleton/CardSingleton.java,f/6/f6c13539ddc1dbfcf24b7fc92f62991949fcdf20

@@ -1,9 +1,9 @@
 package patrones.creacionales;
 
 import patrones.creacionales.abstractFactory.*;
-import patrones.creacionales.prototype.Mastercard;
 import patrones.creacionales.prototype.PrototypeCard;
 import patrones.creacionales.prototype.PrototypeFactory;
+import patrones.creacionales.singleton.CardSingleton;
 
 import static patrones.creacionales.prototype.PrototypeFactory.Cartype.MASTERCARD;
 import static patrones.creacionales.prototype.PrototypeFactory.Cartype.VISA;
@@ -19,6 +19,12 @@ public class Main {
         probarAbstractMethod();
         probarBuilder();
         probarPrototype();
+        probarSinglenton();
+    }
+
+    private static void probarSinglenton(){
+        CardSingleton.getINSTANCE().setCardNumber("1234-1234-1234-1324");
+        System.out.println(CardSingleton.getINSTANCE().getCardNumber());
     }
 
     private static void probarPrototype() {
