@@ -68,3 +68,13 @@ Lsrc/main/java/patrones/comportamiento/command/CreditCardActivateCommand.java,7
 Osrc/main/java/patrones/comportamiento/command/CreditCardDesactivateCommand.java,c/0/c0ca290e3b4382e782a6ca4fdb0b0ecd3c0052f9
 t
 Dsrc/main/java/patrones/comportamiento/command/CreditCardInvoker.java,3/1/31f9e20943ccfe6819fd0a00d08e2079602661ba
+s
+Csrc/main/java/patrones/comportamiento/iterator/TarjetaIterator.java,5/b/5bc158676f15e27054041099f744189b5aa3840e
+k
+;src/main/java/patrones/comportamiento/iterator/Tarjeta.java,1/1/1191645fe862f9ae4582192d55c7768069be4710
+l
+<src/main/java/patrones/comportamiento/iterator/Iterator.java,b/1/b1fd31255805106f950bfe86e93a7be7fe4b8d9a
+h
+8src/main/java/patrones/comportamiento/iterator/List.java,6/4/646c85b4e0f5b089f543d5137b34ae21354c0439
+l
+<src/main/java/patrones/comportamiento/iterator/CardList.java,a/4/a487e1cc11762ebc361bd56ed67b8ff9042dc3c8
