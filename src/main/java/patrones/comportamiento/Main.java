@@ -18,6 +18,9 @@ import patrones.comportamiento.observer.Coche;
 import patrones.comportamiento.observer.MessagePublisher;
 import patrones.comportamiento.observer.Peaton;
 import patrones.comportamiento.observer.Semaforo;
+import patrones.comportamiento.state.MobileAlertStateContext;
+import patrones.comportamiento.state.Silent;
+import patrones.comportamiento.state.Vibration;
 
 public class Main {
 
@@ -28,6 +31,19 @@ public class Main {
         probarMediator();
         probarMemento();
         probarObserver();
+        probarState();
+    }
+
+    private static void probarState(){
+        MobileAlertStateContext context = new MobileAlertStateContext();
+        context.alert();
+        context.alert();
+        context.setState(new Vibration());
+        context.alert();
+        context.alert();
+        context.setState(new Silent());
+        context.alert();
+        context.alert();
     }
 
     private static void probarObserver(){
