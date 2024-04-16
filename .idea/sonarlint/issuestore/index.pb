@@ -78,3 +78,13 @@ h
 8src/main/java/patrones/comportamiento/iterator/List.java,6/4/646c85b4e0f5b089f543d5137b34ae21354c0439
 l
 <src/main/java/patrones/comportamiento/iterator/CardList.java,a/4/a487e1cc11762ebc361bd56ed67b8ff9042dc3c8
+l
+<src/main/java/patrones/comportamiento/mediator/Colleage.java,0/c/0c4633ba75cb05234432c7d63d7524c36b3dc446
+u
+Esrc/main/java/patrones/comportamiento/mediator/ConcreteColleage1.java,9/3/936a7481b2e2bea873ddd7ed327b021cce719e30
+l
+<src/main/java/patrones/comportamiento/mediator/Mediator.java,9/2/927060a233ec072b28865582747c9dbca5e241f5
+u
+Esrc/main/java/patrones/comportamiento/mediator/ConcreteColleage2.java,6/f/6f83b6d947cf5165f8893311f67c95f0d5417e66
+t
+Dsrc/main/java/patrones/comportamiento/mediator/ConcreteMediator.java,0/2/0218f63c9c1a4957b1fd25a691b90220dc67f94f
