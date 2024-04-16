@@ -88,3 +88,9 @@ u
 Esrc/main/java/patrones/comportamiento/mediator/ConcreteColleage2.java,6/f/6f83b6d947cf5165f8893311f67c95f0d5417e66
 t
 Dsrc/main/java/patrones/comportamiento/mediator/ConcreteMediator.java,0/2/0218f63c9c1a4957b1fd25a691b90220dc67f94f
+j
+:src/main/java/patrones/comportamiento/memento/Article.java,e/3/e3b6f43acada4d93ebb1664fc0494a8232da55b9
+q
+Asrc/main/java/patrones/comportamiento/memento/ArticleMemento.java,e/2/e2e25779e97118abbe6c720bc5a3f837f7835916
+l
+<src/main/java/patrones/comportamiento/memento/Carataker.java,f/7/f73c30b4a8ef78340df11e72b9dd1d297e37bc40

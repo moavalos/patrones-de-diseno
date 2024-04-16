@@ -11,6 +11,9 @@ import patrones.comportamiento.iterator.List;
 import patrones.comportamiento.mediator.ConcreteColleage1;
 import patrones.comportamiento.mediator.ConcreteColleage2;
 import patrones.comportamiento.mediator.ConcreteMediator;
+import patrones.comportamiento.memento.Article;
+import patrones.comportamiento.memento.ArticleMemento;
+import patrones.comportamiento.memento.Carataker;
 
 public class Main {
 
@@ -19,6 +22,36 @@ public class Main {
         probarCommand();
         probarIterator();
         probarMediator();
+        probarMemento();
+    }
+
+    private static void probarMemento(){
+        Carataker carataker = new Carataker();
+        Article article = new Article("Alberto", "Memento es una pelicula");
+        article.setText(article.getText() + " de Nolan");
+        System.out.println(article.getText());
+
+        carataker.addMemento(article.createMemento());
+        article.setText(article.getText() + " protagonizada por Guy Pearce");
+        System.out.println(article.getText());
+
+        carataker.addMemento(article.createMemento());
+
+        article.setText(article.getText() + " y Leonardo DiCaprio");
+        System.out.println(article.getText());
+
+        ArticleMemento memento1 = carataker.getMemento(0);
+        ArticleMemento memento2 = carataker.getMemento(1);
+
+        article.restoreMemento(memento1);
+        System.out.println(article.getText());
+
+
+        article.restoreMemento(memento2);
+        System.out.println(article.getText());
+
+        article.setText(article.getText() + " del año ");
+
     }
 
     private static void probarMediator(){
