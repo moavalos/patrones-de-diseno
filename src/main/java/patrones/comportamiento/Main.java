@@ -14,6 +14,10 @@ import patrones.comportamiento.mediator.ConcreteMediator;
 import patrones.comportamiento.memento.Article;
 import patrones.comportamiento.memento.ArticleMemento;
 import patrones.comportamiento.memento.Carataker;
+import patrones.comportamiento.observer.Coche;
+import patrones.comportamiento.observer.MessagePublisher;
+import patrones.comportamiento.observer.Peaton;
+import patrones.comportamiento.observer.Semaforo;
 
 public class Main {
 
@@ -23,6 +27,22 @@ public class Main {
         probarIterator();
         probarMediator();
         probarMemento();
+        probarObserver();
+    }
+
+    private static void probarObserver(){
+        Coche coche = new Coche();
+        Peaton peaton = new Peaton();
+        MessagePublisher messagePublisher = new MessagePublisher();
+
+        messagePublisher.attach(coche);
+        messagePublisher.attach(peaton);
+        messagePublisher.notifyUpdate(new Semaforo("ROJO_COCHE"));
+        try{
+            Thread.sleep(2000);
+        }catch (Exception e){}
+
+        messagePublisher.notifyUpdate(new Semaforo("VERDE_COCHE"));
     }
 
     private static void probarMemento(){

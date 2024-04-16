@@ -94,3 +94,15 @@ q
 Asrc/main/java/patrones/comportamiento/memento/ArticleMemento.java,e/2/e2e25779e97118abbe6c720bc5a3f837f7835916
 l
 <src/main/java/patrones/comportamiento/memento/Carataker.java,f/7/f73c30b4a8ef78340df11e72b9dd1d297e37bc40
+i
+9src/main/java/patrones/comportamiento/observer/Coche.java,f/9/f95d87502149db045cb1c6e0569716d252b01d57
+t
+Dsrc/main/java/patrones/comportamiento/observer/MessagePublisher.java,5/5/559bfefd15b4f6e3650a3adaaff2e01ab46ce8db
+l
+<src/main/java/patrones/comportamiento/observer/Observer.java,8/6/86ca280f10052e6bf2cb37386a6145d55e73ff1b
+j
+:src/main/java/patrones/comportamiento/observer/Peaton.java,b/8/b8b2e5fd0130cebb119c044c421f99d05def766d
+l
+<src/main/java/patrones/comportamiento/observer/Semaforo.java,a/6/a6e5e91dd1ad887faf474db78dea7e94ddbcaac0
+k
+;src/main/java/patrones/comportamiento/observer/Subject.java,d/c/dc442861479783347401d5ad2968c80d9ddd24f7
