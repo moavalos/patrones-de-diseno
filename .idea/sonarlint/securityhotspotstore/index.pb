@@ -116,3 +116,11 @@ f
 6src/main/java/patrones/comportamiento/state/Sound.java,b/4/b4d8c9812dd979bf3954f24145f23fd14da85bf7
 j
 :src/main/java/patrones/comportamiento/state/Vibration.java,9/6/96ae43c38dbe7a031aa8754f849aeed0ec2a912b
+t
+Dsrc/main/java/patrones/comportamiento/interpreter/AndExpression.java,1/5/1531bbbe63d0b83f8649c7618a033127d22fe5b1
+q
+Asrc/main/java/patrones/comportamiento/interpreter/Expression.java,c/d/cdae20e068c7d2c6b15c73dd219c5008a8751ade
+s
+Csrc/main/java/patrones/comportamiento/interpreter/OrExpression.java,f/c/fce57b200403cdd213422a7cf5b880fd0df7d1e8
+y
+Isrc/main/java/patrones/comportamiento/interpreter/TerminalExpression.java,7/9/79b963e1d76e3203f12271a97e026e53122a4205

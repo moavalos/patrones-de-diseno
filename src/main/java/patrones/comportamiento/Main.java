@@ -5,6 +5,10 @@ import patrones.comportamiento.command.CreditCardActivateCommand;
 import patrones.comportamiento.command.CreditCardDesactivateCommand;
 import patrones.comportamiento.command.CreditCardInvoker;
 import patrones.comportamiento.command.TarjetaCredito;
+import patrones.comportamiento.interpreter.AndExpression;
+import patrones.comportamiento.interpreter.Expression;
+import patrones.comportamiento.interpreter.OrExpression;
+import patrones.comportamiento.interpreter.TerminalExpression;
 import patrones.comportamiento.iterator.CardList;
 import patrones.comportamiento.iterator.Iterator;
 import patrones.comportamiento.iterator.List;
@@ -32,6 +36,21 @@ public class Main {
         probarMemento();
         probarObserver();
         probarState();
+        probarInterpreter();
+    }
+
+    private static void probarInterpreter(){
+        Expression cero = new TerminalExpression("0");
+        Expression uno = new TerminalExpression("1");
+
+        Expression containBoolean = new OrExpression(cero, uno);
+        Expression containsOneAndCero = new AndExpression(cero, uno);
+
+        System.out.println(containBoolean.interpret("cero"));
+        System.out.println(containBoolean.interpret("0"));
+
+        System.out.println(containsOneAndCero.interpret("0"));
+        System.out.println(containsOneAndCero.interpret("0, 1"));
     }
 
     private static void probarState(){
