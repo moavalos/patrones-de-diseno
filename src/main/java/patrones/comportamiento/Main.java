@@ -8,6 +8,9 @@ import patrones.comportamiento.command.TarjetaCredito;
 import patrones.comportamiento.iterator.CardList;
 import patrones.comportamiento.iterator.Iterator;
 import patrones.comportamiento.iterator.List;
+import patrones.comportamiento.mediator.ConcreteColleage1;
+import patrones.comportamiento.mediator.ConcreteColleage2;
+import patrones.comportamiento.mediator.ConcreteMediator;
 
 public class Main {
 
@@ -15,6 +18,19 @@ public class Main {
         probarChainOfResponsability();
         probarCommand();
         probarIterator();
+        probarMediator();
+    }
+
+    private static void probarMediator(){
+        ConcreteMediator mediator = new ConcreteMediator();
+        ConcreteColleage1 user1 = new ConcreteColleage1(mediator);
+        ConcreteColleage2 user2 = new ConcreteColleage2(mediator);
+
+        mediator.setUser1(user1);
+        mediator.setUser2(user2);
+
+        user1.send("Hola soy user1");
+        user2.send("Hola user1, soy user2");
     }
 
     private static void probarIterator(){
