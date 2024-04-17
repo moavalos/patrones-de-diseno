@@ -124,3 +124,11 @@ s
 Csrc/main/java/patrones/comportamiento/interpreter/OrExpression.java,f/c/fce57b200403cdd213422a7cf5b880fd0df7d1e8
 y
 Isrc/main/java/patrones/comportamiento/interpreter/TerminalExpression.java,7/9/79b963e1d76e3203f12271a97e026e53122a4205
+€
+Psrc/main/java/patrones/comportamiento/strategy/CapitalStrategyTextFormatter.java,8/5/853e1a0b958139e8054405d083c759217d5957c8
+k
+;src/main/java/patrones/comportamiento/strategy/Context.java,8/f/8f2f05d1a8600a9b8bb73bf9b9ae794adf6bf942
+~
+Nsrc/main/java/patrones/comportamiento/strategy/LowerStrategyTestFormatter.java,f/b/fb760c3956b5b12a8028931f987658e87836dab8
+y
+Isrc/main/java/patrones/comportamiento/strategy/StragetyTextFormatter.java,3/5/35591072d5d33a0822221a0869e4d152dfd88c69

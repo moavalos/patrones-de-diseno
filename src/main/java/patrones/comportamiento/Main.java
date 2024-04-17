@@ -25,6 +25,9 @@ import patrones.comportamiento.observer.Semaforo;
 import patrones.comportamiento.state.MobileAlertStateContext;
 import patrones.comportamiento.state.Silent;
 import patrones.comportamiento.state.Vibration;
+import patrones.comportamiento.strategy.CapitalStrategyTextFormatter;
+import patrones.comportamiento.strategy.Context;
+import patrones.comportamiento.strategy.LowerStrategyTestFormatter;
 
 public class Main {
 
@@ -37,6 +40,15 @@ public class Main {
         probarObserver();
         probarState();
         probarInterpreter();
+        probarStrategy();
+    }
+
+    private static void probarStrategy(){
+        Context context = new Context(new CapitalStrategyTextFormatter());
+        context.publishText("Este texto será convertido a MAYUSCULAS a través del algoritmo");
+
+        context = new Context(new LowerStrategyTestFormatter());
+        context.publishText("Esto texto SERA CONVERTIDO a MINUSCULAS a través del algortimo");
     }
 
     private static void probarInterpreter(){
