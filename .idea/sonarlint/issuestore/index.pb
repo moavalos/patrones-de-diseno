@@ -150,3 +150,15 @@ q
 Asrc/main/java/patrones/comportamiento/visitor/OfertaGasolina.java,6/7/6790f67300e22447b1e7961248e3016492803596
 o
 ?src/main/java/patrones/comportamiento/visitor/OfertaVuelos.java,8/4/84ab9eed2f2d91afa6a25cde5acb970ee68ac026
+i
+9src/main/java/patrones/estructurales/adapter/Adapter.java,c/e/ce6982845c589e424d3051464fd2b3109632fdc3
+q
+Asrc/main/java/patrones/estructurales/adapter/BlackCreditCard.java,c/d/cd398d089089efb702c41cc70338df57cc9c8876
+l
+<src/main/java/patrones/estructurales/adapter/CreditCard.java,c/9/c92358f828d61fea3e942ae1937d90eac536bdc5
+p
+@src/main/java/patrones/estructurales/adapter/GoldCreditCard.java,3/6/3645fcaf9d23a010d1be12d1a4aa926bb4a991ad
+p
+@src/main/java/patrones/estructurales/adapter/PaymentAdapter.java,2/5/25c4f5dfbd49f0d2c39351f39676adec29147bc0
+h
+8src/main/java/patrones/estructurales/adapter/Secure.java,a/9/a9fc3438f9d6fb88c222b5fcdea8ec1b843f89bf
