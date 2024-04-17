@@ -182,3 +182,15 @@ s
 Csrc/main/java/patrones/estructurales/composite/CuentaComposite.java,1/3/13bcb8977454a83372c88ef1220b68420378eee1
 s
 Csrc/main/java/patrones/estructurales/composite/CuentaCorriente.java,9/9/99888382a781f40204c3521d993b9c6375e15db4
+i
+9src/main/java/patrones/estructurales/decorator/Black.java,2/b/2b1367f32cb78a904a5a178e7a87e47e1da0f8b2
+j
+:src/main/java/patrones/estructurales/decorator/Credit.java,9/3/936336d82ee07bbc9b44023d292b8ef936636b01
+s
+Csrc/main/java/patrones/estructurales/decorator/CreditDecorator.java,0/6/067243e0a86cec9262848e7a651d781bf20f87cf
+h
+8src/main/java/patrones/estructurales/decorator/Gold.java,4/2/42c41af8a7f441003b7f4fcc3e44ebd4cdfab6d1
+Å
+Qsrc/main/java/patrones/estructurales/decorator/InternationalPaymentDecorator.java,5/8/5822b51852ce80a460b33f67e731d600465217f3
+s
+Csrc/main/java/patrones/estructurales/decorator/SecureDecorator.java,d/c/dcd754954e5ea13690b40aac9af04934b4dea3d6

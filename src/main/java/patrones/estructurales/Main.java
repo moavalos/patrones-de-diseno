@@ -9,6 +9,7 @@ import patrones.estructurales.composite.CuentaAhorro;
 import patrones.estructurales.composite.CuentaComponent;
 import patrones.estructurales.composite.CuentaComposite;
 import patrones.estructurales.composite.CuentaCorriente;
+import patrones.estructurales.decorator.*;
 
 public class Main {
 
@@ -16,6 +17,28 @@ public class Main {
         probarAdapter();
         probarBridge();
         probarComposite();
+        probarDecorator();
+    }
+
+    private static void probarDecorator(){
+        Credit gold = new Gold();
+
+        Credit blackInternationalPayment = new Black();
+        blackInternationalPayment = new InternationalPaymentDecorator(blackInternationalPayment);
+
+        Credit goldSecureInternational = new Gold();
+        goldSecureInternational = new InternationalPaymentDecorator(goldSecureInternational);
+        goldSecureInternational = new SecureDecorator(goldSecureInternational);
+
+        System.out.println("----Tarjeta Gold con configuración----");
+        gold.showCredit();
+
+        System.out.println("----Tarjeta Black con configuración----");
+        blackInternationalPayment.showCredit();
+
+        System.out.println("----Tarjeta Gold2 con configuración----");
+        goldSecureInternational.showCredit();
+
     }
 
     private static void probarComposite(){
