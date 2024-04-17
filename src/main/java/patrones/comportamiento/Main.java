@@ -28,6 +28,9 @@ import patrones.comportamiento.state.Vibration;
 import patrones.comportamiento.strategy.CapitalStrategyTextFormatter;
 import patrones.comportamiento.strategy.Context;
 import patrones.comportamiento.strategy.LowerStrategyTestFormatter;
+import patrones.comportamiento.templateMethod.PaymentTemplate;
+import patrones.comportamiento.templateMethod.Paypal;
+import patrones.comportamiento.templateMethod.VisaTemplate;
 
 public class Main {
 
@@ -41,6 +44,15 @@ public class Main {
         probarState();
         probarInterpreter();
         probarStrategy();
+        probarTemplateMethod();
+    }
+
+    private static void probarTemplateMethod(){
+        PaymentTemplate payment = new VisaTemplate();
+        payment.makePayment();
+
+        payment = new Paypal();
+        payment.makePayment();
     }
 
     private static void probarStrategy(){

@@ -132,3 +132,9 @@ k
 Nsrc/main/java/patrones/comportamiento/strategy/LowerStrategyTestFormatter.java,f/b/fb760c3956b5b12a8028931f987658e87836dab8
 y
 Isrc/main/java/patrones/comportamiento/strategy/StragetyTextFormatter.java,3/5/35591072d5d33a0822221a0869e4d152dfd88c69
+y
+Isrc/main/java/patrones/comportamiento/templateMethod/PaymentTemplate.java,1/8/180e1e37842320bd5152c188e146d8b5377d523e
+p
+@src/main/java/patrones/comportamiento/templateMethod/Paypal.java,0/1/01e99446dbcbca636589ae658da68605468e9933
+v
+Fsrc/main/java/patrones/comportamiento/templateMethod/VisaTemplate.java,b/6/b6e03e380b65618140fb9a6f942b59c61b01dcc9
