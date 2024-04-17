@@ -162,3 +162,13 @@ p
 @src/main/java/patrones/estructurales/adapter/PaymentAdapter.java,2/5/25c4f5dfbd49f0d2c39351f39676adec29147bc0
 h
 8src/main/java/patrones/estructurales/adapter/Secure.java,a/9/a9fc3438f9d6fb88c222b5fcdea8ec1b843f89bf
+r
+Bsrc/main/java/patrones/estructurales/bridge/ClassicCreditCard.java,2/f/2f18da41c3bdc3d2027359238558c32defc4b218
+q
+Asrc/main/java/patrones/estructurales/bridge/CreditCardBridge.java,a/e/ae5f532d1766cf45f635261ed0d2dacfcf1ed658
+l
+<src/main/java/patrones/estructurales/bridge/ICreditCard.java,8/5/850b6337d3287bf8ba3f4aba7dae0dddbf5bca61
+q
+Asrc/main/java/patrones/estructurales/bridge/SecureCreditCard.java,4/b/4b3fd75c60051d468f6ff1d0c4ce4ddd4acbdb61
+s
+Csrc/main/java/patrones/estructurales/bridge/UnsecureCreditCard.java,e/1/e100d552014e7ac7a32226f2e1a31d453ba63553
