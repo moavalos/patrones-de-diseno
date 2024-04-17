@@ -174,3 +174,11 @@ s
 Csrc/main/java/patrones/estructurales/bridge/UnsecureCreditCard.java,e/1/e100d552014e7ac7a32226f2e1a31d453ba63553
 ^
 .src/main/java/patrones/estructurales/Main.java,0/c/0c00ac8194e0276f05966f43492644131bd67c87
+p
+@src/main/java/patrones/estructurales/composite/CuentaAhorro.java,5/c/5c9318072daa1fca83876e95d98b3c908552d9ac
+s
+Csrc/main/java/patrones/estructurales/composite/CuentaComponent.java,3/d/3d6a2925445ae0be3c8f4b51b18e29b241f9bca6
+s
+Csrc/main/java/patrones/estructurales/composite/CuentaComposite.java,1/3/13bcb8977454a83372c88ef1220b68420378eee1
+s
+Csrc/main/java/patrones/estructurales/composite/CuentaCorriente.java,9/9/99888382a781f40204c3521d993b9c6375e15db4
