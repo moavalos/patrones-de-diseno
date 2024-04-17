@@ -31,6 +31,7 @@ import patrones.comportamiento.strategy.LowerStrategyTestFormatter;
 import patrones.comportamiento.templateMethod.PaymentTemplate;
 import patrones.comportamiento.templateMethod.Paypal;
 import patrones.comportamiento.templateMethod.VisaTemplate;
+import patrones.comportamiento.visitor.*;
 
 public class Main {
 
@@ -45,6 +46,15 @@ public class Main {
         probarInterpreter();
         probarStrategy();
         probarTemplateMethod();
+        probarVisitor();
+    }
+
+    private static void probarVisitor(){
+        OfertaElement ofertaElement = new OfertaGasolina();
+        ofertaElement.accept(new BlackCreditCardVisitor());
+
+        ofertaElement = new OfertaVuelos();
+        ofertaElement.accept(new ClassicCreditCardVisitor());
     }
 
     private static void probarTemplateMethod(){

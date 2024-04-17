@@ -172,3 +172,5 @@ q
 Asrc/main/java/patrones/estructurales/bridge/SecureCreditCard.java,4/b/4b3fd75c60051d468f6ff1d0c4ce4ddd4acbdb61
 s
 Csrc/main/java/patrones/estructurales/bridge/UnsecureCreditCard.java,e/1/e100d552014e7ac7a32226f2e1a31d453ba63553
+^
+.src/main/java/patrones/estructurales/Main.java,0/c/0c00ac8194e0276f05966f43492644131bd67c87
