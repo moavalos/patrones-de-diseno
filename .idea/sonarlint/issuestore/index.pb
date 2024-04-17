@@ -138,3 +138,15 @@ p
 @src/main/java/patrones/comportamiento/templateMethod/Paypal.java,0/1/01e99446dbcbca636589ae658da68605468e9933
 v
 Fsrc/main/java/patrones/comportamiento/templateMethod/VisaTemplate.java,b/6/b6e03e380b65618140fb9a6f942b59c61b01dcc9
+y
+Isrc/main/java/patrones/comportamiento/visitor/BlackCreditCardVisitor.java,e/b/eb3a1b2460ad72ff38ca988f12d554881602a006
+{
+Ksrc/main/java/patrones/comportamiento/visitor/ClassicCreditCardVisitor.java,7/8/783723da8c75dd17f154402d97c02f049cdd926d
+t
+Dsrc/main/java/patrones/comportamiento/visitor/CreditCardVisitor.java,c/7/c7554d4816d8709ac2d764c3e3179d3eddd3c746
+p
+@src/main/java/patrones/comportamiento/visitor/OfertaElement.java,8/c/8c71c337b1e301427c4ed2b1a5f811cd629c1e24
+q
+Asrc/main/java/patrones/comportamiento/visitor/OfertaGasolina.java,6/7/6790f67300e22447b1e7961248e3016492803596
+o
+?src/main/java/patrones/comportamiento/visitor/OfertaVuelos.java,8/4/84ab9eed2f2d91afa6a25cde5acb970ee68ac026
