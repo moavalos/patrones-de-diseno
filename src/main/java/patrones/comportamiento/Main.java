@@ -35,6 +35,10 @@ import patrones.comportamiento.visitor.*;
 
 public class Main {
 
+    /**
+     * definen formas en las que interactúan y reparten responsabilidades las clases y objetos
+     */
+
     public static void main(String[] args) {
         probarChainOfResponsability();
         probarCommand();

@@ -18,6 +18,12 @@ import java.util.Random;
 
 public class Main {
 
+    /**
+     * Composición de las clases y objetos.
+     * separan la interfaz de la implementación.
+     * si una parte cambia, no es necesario cambiar toda la estructura
+     */
+
     public static void main(String[] args) {
         probarAdapter();
         probarBridge();
