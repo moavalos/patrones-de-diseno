@@ -204,3 +204,11 @@ f
 6src/main/java/patrones/estructurales/facade/GoldF.java,5/a/5a256bf0285e3623586b7eae5e19261dfeadbbd4
 h
 8src/main/java/patrones/estructurales/facade/SilverF.java,4/5/458d61d18b8c95e11277441ed0e5a446a2527fee
+m
+=src/main/java/patrones/estructurales/flyweight/Detective.java,2/7/2750b36c6dcd7062f762d24045e0bd38c3ba7169
+i
+9src/main/java/patrones/estructurales/flyweight/Enemy.java,f/1/f13fb253f478168973a949cbfe4b6ddb31fead10
+p
+@src/main/java/patrones/estructurales/flyweight/EnemyFactory.java,9/6/9679b47d93adb604c2f675630f3b7fbbc2e00f64
+k
+;src/main/java/patrones/estructurales/flyweight/Private.java,0/5/0521c604e3d383bbd03bb61ef782bac8738ec2ec

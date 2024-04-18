@@ -11,6 +11,10 @@ import patrones.estructurales.composite.CuentaComposite;
 import patrones.estructurales.composite.CuentaCorriente;
 import patrones.estructurales.decorator.*;
 import patrones.estructurales.facade.CreditMarket;
+import patrones.estructurales.flyweight.Enemy;
+import patrones.estructurales.flyweight.EnemyFactory;
+
+import java.util.Random;
 
 public class Main {
 
@@ -20,6 +24,7 @@ public class Main {
         probarComposite();
         probarDecorator();
         probarFacade();
+        probarFlyweight();
     }
 
     private static void probarFacade(){
@@ -28,6 +33,30 @@ public class Main {
         creditMarket.showCreditGold();
         creditMarket.showCreditSilver();
     }
+
+    private static void probarFlyweight(){
+        for(int i=0; i<15; i++){
+            Enemy enemy = EnemyFactory.getEnemy(getRandomEnemyType());
+            enemy.setWeapon(getRandomWeapon());
+            enemy.lifePoints();
+        }
+    }
+
+    private static String getRandomWeapon(){
+        Random r = new Random();
+        int randInt = r.nextInt(weapon.length);
+        return weapon[randInt];
+    }
+
+    private static String getRandomEnemyType(){
+        Random r = new Random();
+        int randInt = r.nextInt(enemyType.length);
+        return enemyType[randInt];
+    }
+
+    private static String[] enemyType = {"Private", "Detective"};
+    private static String[] weapon = {"Fusil", "Revolver", "Pistola", "Metralleta", "Lanza Granadas", "9mm"};
+
 
     private static void probarDecorator(){
         Credit gold = new Gold();
