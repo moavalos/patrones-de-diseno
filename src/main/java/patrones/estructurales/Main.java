@@ -10,6 +10,7 @@ import patrones.estructurales.composite.CuentaComponent;
 import patrones.estructurales.composite.CuentaComposite;
 import patrones.estructurales.composite.CuentaCorriente;
 import patrones.estructurales.decorator.*;
+import patrones.estructurales.facade.CreditMarket;
 
 public class Main {
 
@@ -18,6 +19,14 @@ public class Main {
         probarBridge();
         probarComposite();
         probarDecorator();
+        probarFacade();
+    }
+
+    private static void probarFacade(){
+        CreditMarket creditMarket = new CreditMarket();
+        creditMarket.showCreditBlack();
+        creditMarket.showCreditGold();
+        creditMarket.showCreditSilver();
     }
 
     private static void probarDecorator(){

@@ -194,3 +194,13 @@ h
 Qsrc/main/java/patrones/estructurales/decorator/InternationalPaymentDecorator.java,5/8/5822b51852ce80a460b33f67e731d600465217f3
 s
 Csrc/main/java/patrones/estructurales/decorator/SecureDecorator.java,d/c/dcd754954e5ea13690b40aac9af04934b4dea3d6
+g
+7src/main/java/patrones/estructurales/facade/BlackF.java,6/9/69e5d14740d7b02b39232607d54f329970e7cf6a
+h
+8src/main/java/patrones/estructurales/facade/CreditF.java,3/5/35e4234770581ff94bb11f09bc97be80b9afee1a
+m
+=src/main/java/patrones/estructurales/facade/CreditMarket.java,d/3/d32ca7ecdf4446a5851d62b1ccaf954715daedc1
+f
+6src/main/java/patrones/estructurales/facade/GoldF.java,5/a/5a256bf0285e3623586b7eae5e19261dfeadbbd4
+h
+8src/main/java/patrones/estructurales/facade/SilverF.java,4/5/458d61d18b8c95e11277441ed0e5a446a2527fee
