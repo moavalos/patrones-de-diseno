@@ -212,3 +212,9 @@ p
 @src/main/java/patrones/estructurales/flyweight/EnemyFactory.java,9/6/9679b47d93adb604c2f675630f3b7fbbc2e00f64
 k
 ;src/main/java/patrones/estructurales/flyweight/Private.java,0/5/0521c604e3d383bbd03bb61ef782bac8738ec2ec
+p
+@src/main/java/patrones/estructurales/proxy/AccessToInternet.java,7/f/7fa0e91b57877e3172d83266527e7d98dbcbb950
+h
+8src/main/java/patrones/estructurales/proxy/Internet.java,4/9/4952b0950a581465554e863f18bf4d596b55a7ed
+m
+=src/main/java/patrones/estructurales/proxy/ProxyInternet.java,2/9/291f1ecbff9ee79e80ecfa291c31190f71db78fb
