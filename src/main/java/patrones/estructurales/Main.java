@@ -62,8 +62,7 @@ public class Main {
 
     private static String[] enemyType = {"Private", "Detective"};
     private static String[] weapon = {"Fusil", "Revolver", "Pistola", "Metralleta", "Lanza Granadas", "9mm"};
-
-
+    
     private static void probarDecorator(){
         Credit gold = new Gold();
 
